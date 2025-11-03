@@ -1,6 +1,5 @@
 # The URL the site will be built for
-# base_url = "https://bereavementwithgrace.ca"
-base_url = "https://c4collins.github.io/bereavement-with-grace-website/"
+base_url = "https://bereavementwithgrace.ca"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
