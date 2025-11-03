@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html class="theme-light">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ config.description }}" />
+
+    <meta property="og:title" content="{{ config.title }}" />
+    <meta property="og:url" content="{{ config.base_url }}" />
+    <meta property="og:description" content="{{ config.description }}" />
+
+    <title>{{ config.title }}</title>
+
+    <link rel="canonical" href="{{ config.base_url }}" />
+
+    {# Bulma CSS #}
+    <link rel="stylesheet" href="/css/bulma.min.css" />
+
+    {# Local CSS #}
+    <link rel="stylesheet" href="/css/doula.css" />
+
+
+
+</head>
+
+<body>
+    {% include "components/navbar.html" %}
+
+    {% block content %}
+    {% endblock content %}
+
+    {% include "components/page_footer.html" %}
+
+
+    {# Lucide Icons #}
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+
+</body>
+
+</html>

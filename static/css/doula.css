@@ -1,0 +1,43 @@
+
+:root {
+    .navbar>.container {
+        min-height: 5rem;
+    }
+    footer {
+        box-shadow: 0 50vh 0 50vh #d6d9e0;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    ul {
+        margin: 0.5rem;
+    }
+    ul > li {
+        list-style-type: '> '
+    }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* CSS Variables */
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* CSS Variables */
+  }
+}
+
+[data-theme=light],
+.theme-light {
+  /* CSS Variables */
+}
+
+[data-theme=dark],
+.theme-dark {
+  /* CSS Variables */
+}

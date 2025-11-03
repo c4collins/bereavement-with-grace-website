@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="section container">
+    {% if section.content %}{{ section.content | safe }}{% endif %}
+</section>
+{% endblock content %}

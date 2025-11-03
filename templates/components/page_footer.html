@@ -1,0 +1,14 @@
+<footer class="container columns has-background-grey-lighter mt-6">
+    <div class="column is-three-quarters has-text-left">
+        {% for link in config.extra.footer.links %}
+        {% for translation in config.extra.links.translations %}
+        {% if translation.name == link %}
+        <a class="display-block mr-6 has-text-black" href="{{translation.url}}">{{translation[lang] | safe}}</a>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+    </div>
+    <div class="column has-text-right">
+        &copy;&nbsp;2025 {{ config.extra.footer.notice | safe }}
+    </div>
+</footer>

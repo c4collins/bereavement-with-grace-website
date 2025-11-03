@@ -1,0 +1,35 @@
+# The URL the site will be built for
+base_url = "https://bereavementwithgrace.ca"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+generate_feeds = false
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+default_language = "en"
+logo_path = "/img/bwg.png"
+
+[extra.navbar]
+links = ["about", "what", "offer", "services", "connect"]
+
+[extra.footer]
+links = ["home", "about", "what", "offer", "services", "connect"]
+notice = "Bereavement&nbsp;with&nbsp;Grace"
+
+[extra.links]
+translations = [
+    { name = "about", url = "/about", en = "About" },
+    { name = "what", url = "/what", en = "What&nbsp;It's&nbsp;About" },
+    { name = "offer", url = "/offer", en = "What&nbsp;I&nbsp;Offer" },
+    { name = "home", url = "/", en = "Home", nl = "Start" },
+    { name = "connect", url = "/connect", en = "Connect" },
+    { name = "services", url = "/services", en = "Services&nbsp;&&nbsp;Pricing" },
+]
