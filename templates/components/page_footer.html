@@ -3,7 +3,8 @@
         {% for link in config.extra.footer.links %}
         {% for translation in config.extra.links.translations %}
         {% if translation.name == link %}
-        <a class="display-block mr-6 has-text-black" href="{{translation.url}}">{{translation[lang] | safe}}</a>
+        <a class="display-block mr-6 has-text-black" href="{{ config.base_url }}{{translation.url}}">{{translation[lang]
+            | safe}}</a>
         {% endif %}
         {% endfor %}
         {% endfor %}

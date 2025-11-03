@@ -2,7 +2,7 @@
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item" href="{{ config.base_url }}">
-                <img src="{{ config.extra.logo_path }}" alt="{{ config.title }}" />
+                <img src="{{ config.base_url }}{{ config.extra.logo_path }}" alt="{{ config.title }}" />
             </a>
 
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-top">
@@ -19,7 +19,7 @@
                 {% for translation in config.extra.links.translations %}
                 {% if translation.name == link %}
                 <a class="navbar-item has-text-link has-text-weight-semibold"
-                    href="{{ translation.url }}">{{translation[lang] | safe}}</a>
+                    href="{{ config.base_url }}{{ translation.url }}">{{translation[lang] | safe}}</a>
                 {% endif %}
                 {% endfor %}
                 {% endfor %}
