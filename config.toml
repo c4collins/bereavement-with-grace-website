@@ -26,10 +26,10 @@ notice = "Bereavement&nbsp;with&nbsp;Grace"
 
 [extra.links]
 translations = [
-    { name = "about", url = "/about", en = "About" },
-    { name = "what", url = "/what", en = "What&nbsp;It's&nbsp;About" },
-    { name = "offer", url = "/offer", en = "What&nbsp;I&nbsp;Offer" },
-    { name = "home", url = "/", en = "Home", nl = "Start" },
-    { name = "connect", url = "/connect", en = "Connect" },
-    { name = "services", url = "/services", en = "Services&nbsp;&&nbsp;Pricing" },
+    { name = "about", url = "about", en = "About" },
+    { name = "what", url = "what", en = "What&nbsp;It's&nbsp;About" },
+    { name = "offer", url = "offer", en = "What&nbsp;I&nbsp;Offer" },
+    { name = "home", url = "", en = "Home", nl = "Start" },
+    { name = "connect", url = "connect", en = "Connect" },
+    { name = "services", url = "services", en = "Services&nbsp;&&nbsp;Pricing" },
 ]
