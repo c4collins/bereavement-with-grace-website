@@ -1,6 +1,12 @@
 # Michelle Grace - Death Doula - Website
 
-## To install Zola
+## Content Management
+
+Update markdown files in /content/
+
+## Website Development
+
+### To install Zola
 
 1. Go to https://github.com/getzola/zola/releases
 1. Download the latest version for windows `zola-v<version>-x86_64-pc-windows-msvc.zip`
