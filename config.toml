@@ -1,5 +1,7 @@
 # The URL the site will be built for
 base_url = "https://www.bereavementwithgrace.com"
+title = "Bereavement with Grace"
+description = "Death and grief can be disorienting. I help handle what feels too heavy — both the emotional parts and the practical details — with calm, clarity, and respect."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
