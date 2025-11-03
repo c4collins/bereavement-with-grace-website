@@ -2,15 +2,20 @@
 :root {
     body {
         color: white;
+        min-height: 100vh;
     }
     a {
         color: lightgrey;
     }
     h1 {
         font-size: 4rem;
+        line-height: 4rem;
+        margin-bottom: 2rem;
     }
     h2 {
         font-size: 3.5rem;
+        line-height: 3.5rem;
+        margin-bottom: 2rem;
     }
     h3 {
         font-size: 3rem;
@@ -25,7 +30,9 @@
         font-size: 1.5rem;
     }
     p {
+        margin-top: 1rem;
         font-size: 1.25rem;
+        line-height: 2rem;
     }
     ul {
         margin: 0.5rem;
@@ -38,15 +45,25 @@
         background-color: transparent;
     }
 
-    .roses {
-        background-image: url("/img/backgrounds/roses.jpg");
-        background-color: darkgreen;
+    .background-wrapper {
         background-repeat: no-repeat;
         background-size: cover;
     }
 
-    .roses > .filter {
-        backdrop-filter: contrast(55%);
+    .background-wrapper > .filter {
+        backdrop-filter: contrast(45%);
+    }
+    .roses {
+        background-image: url("/img/backgrounds/roses.jpg");
+        background-color: darkgreen;
+    }
+    .trees {
+        background-image: url("/img/backgrounds/trees.jpg");
+        background-color: skyblue;
+    }
+    .flowers {
+        background-image: url("/img/backgrounds/red-flower.jpg");
+        background-color: lightgreen;
     }
 }
 

@@ -1,4 +1,5 @@
 +++
+path = "offers"
 [extra]
 wrapper_background_class = "roses"
 +++

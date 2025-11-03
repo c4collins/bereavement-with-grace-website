@@ -1,6 +1,7 @@
 +++
+path = "what_is_it"
 [extra]
-wrapper_background_class = "roses"
+wrapper_background_class = "flowers"
 +++
 
 # Grief isn’t something to fix. It’s something to face.

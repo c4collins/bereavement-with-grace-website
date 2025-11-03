@@ -18,15 +18,18 @@ default_language = "en"
 logo_path = "/img/logo/dove.webp"
 
 [extra.navbar]
-links = ["about", "what", "offer", "services", "connect"]
+links = [
+    # "what", "offer", "services", "connect"
+]
 
 [extra.footer]
-links = ["home", "about", "what", "offer", "services", "connect"]
+links = [
+    # "home", "what", "offer", "services", "connect"
+]
 notice = "Bereavement&nbsp;with&nbsp;Grace"
 
 [extra.links]
 translations = [
-    { name = "about", url = "/about", en = "About" },
     { name = "what", url = "/what", en = "What&nbsp;It's&nbsp;About" },
     { name = "offer", url = "/offer", en = "What&nbsp;I&nbsp;Offer" },
     { name = "home", url = "/", en = "Home", nl = "Start" },

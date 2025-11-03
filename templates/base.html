@@ -26,18 +26,31 @@
 </head>
 
 <body>
+
+    {% if not section.extra.extend_navbar %}
     <div
-        class="{% if section.extra.wrapper_background_class %}{{ section.extra.wrapper_background_class }}{% endif %}{% if page.extra.wrapper_background_class %}{{ page.extra.wrapper_background_class }}{% endif %}">
-        <div class="filter">
-            {% include "components/navbar.html" %}
-
-            {% block content %}
-            {% endblock content %}
-
-            {% include "components/page_footer.html" %}
+        class="background-wrapper {% if section.extra.wrapper_background_class %}{{ section.extra.wrapper_background_class }}{% else %}roses{% endif %}">
+        <div class="filter section">
+            <div class="container">
+                {% include "components/navbar.html" %}
+            </div>
         </div>
     </div>
+    {% endif %}
 
+    {% block content %}
+    {% endblock content %}
+
+    <div
+        class="background-wrapper {% if section.extra.wrapper_background_class %}{{ section.extra.wrapper_background_class }}{% else %}roses{% endif %}">
+
+        <div class="filter section">
+
+            <div class="container">
+                {% include "components/page_footer.html" %}
+            </div>
+        </div>
+    </div>
 
     {# Lucide Icons #}
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>

@@ -1,7 +1,10 @@
 +++
 [extra]
 wrapper_background_class = "roses"
+extend_navbar = true
 +++
+
+<div class="has-text-centered">
 
 # Loss changes everything.
 ## Let’s not pretend it doesn’t.
@@ -12,8 +15,15 @@ Bereavement with Grace exists to make space for all of it — the real parts no 
 
 I help people move through death and loss with honesty and steadiness. No scripts. No forced positivity. Just grounded support when things get heavy.
 
+</div>
+<div class="has-text-right mt-4">
+<div class="mt-4">
 
-![Michelle Grace Signature](img/signature.png)
-Michelle Grace
+![Michelle Grace Signature](img/mg-signature-white.png)
 
-End-of-Life Doula
+</div>
+
+##### Michelle Grace
+
+###### End-of-Life Doula
+</div>

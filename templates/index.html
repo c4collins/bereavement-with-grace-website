@@ -1,8 +1,28 @@
 {% extends "base.html" %}
 
 {% block content %}
-<section class="section container has-text-centered">
-    {% if section.header %}{{ section.header | safe }}{% endif %}
-    {% if section.content %}{{ section.content | safe }}{% endif %}
-</section>
+
+<div
+    class="background-wrapper {% if section.extra.wrapper_background_class %}{{ section.extra.wrapper_background_class }}{% endif %}">
+
+    <div class="filter section">
+        <div class="container">
+            {% include "components/navbar.html" %}
+            {% if section.content %}{{ section.content | safe }}{% endif %}
+        </div>
+    </div>
+</div>
+
+
+{% for page in section.pages | sort(attribute='path') %}
+<div
+    class=" background-wrapper {% if page.extra.wrapper_background_class %}{{ page.extra.wrapper_background_class }}{% endif %}">
+
+    <div class="filter section">
+        <div class="container">
+            {% if page.content %}{{ page.content | safe }}{% endif %}
+        </div>
+    </div>
+</div>
+{% endfor %}
 {% endblock content %}

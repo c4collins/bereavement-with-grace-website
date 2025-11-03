@@ -1,4 +1,5 @@
-<footer class="container columns mt-6">
+<footer class="container columns">
+    {% if config.extra.footer.links.length %}
     <div class="column is-three-quarters has-text-left">
         {% for link in config.extra.footer.links %}
         {% for translation in config.extra.links.translations %}
@@ -9,6 +10,7 @@
         {% endfor %}
         {% endfor %}
     </div>
+    {% endif %}
     <div class="column has-text-right">
         &copy;&nbsp;2025 {{ config.extra.footer.notice | safe }}
     </div>
