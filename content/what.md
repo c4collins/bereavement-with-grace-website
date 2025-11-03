@@ -1,4 +1,6 @@
 +++
+[extra]
+wrapper_background_class = "roses"
 +++
 
 # Grief isn’t something to fix. It’s something to face.

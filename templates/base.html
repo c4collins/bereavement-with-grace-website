@@ -26,12 +26,17 @@
 </head>
 
 <body>
-    {% include "components/navbar.html" %}
+    <div
+        class="{% if section.extra.wrapper_background_class %}{{ section.extra.wrapper_background_class }}{% endif %}{% if page.extra.wrapper_background_class %}{{ page.extra.wrapper_background_class }}{% endif %}">
+        <div class="filter">
+            {% include "components/navbar.html" %}
 
-    {% block content %}
-    {% endblock content %}
+            {% block content %}
+            {% endblock content %}
 
-    {% include "components/page_footer.html" %}
+            {% include "components/page_footer.html" %}
+        </div>
+    </div>
 
 
     {# Lucide Icons #}

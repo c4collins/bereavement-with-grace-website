@@ -1,4 +1,6 @@
 +++
+[extra]
+wrapper_background_class = "roses"
 +++
 
 # Straightforward support for the hardest chapters.

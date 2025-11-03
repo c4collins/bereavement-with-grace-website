@@ -1,7 +1,8 @@
 {% extends "base.html" %}
 
 {% block content %}
-<section class="section container">
+<section class="section container has-text-centered">
+    {% if section.header %}{{ section.header | safe }}{% endif %}
     {% if section.content %}{{ section.content | safe }}{% endif %}
 </section>
 {% endblock content %}

@@ -1,15 +1,30 @@
 
 :root {
-    .navbar>.container {
-        min-height: 5rem;
+    body {
+        color: white;
+    }
+    a {
+        color: lightgrey;
     }
     h1 {
-        font-size: 2rem;
+        font-size: 4rem;
     }
     h2 {
-        font-size: 1.6rem;
+        font-size: 3.5rem;
     }
     h3 {
+        font-size: 3rem;
+    }
+    h4 {
+        font-size: 2.5rem;
+    }
+    h5 {
+        font-size: 2rem;
+    }
+    h6 {
+        font-size: 1.5rem;
+    }
+    p {
         font-size: 1.25rem;
     }
     ul {
@@ -18,27 +33,32 @@
     ul > li {
         list-style-type: '> '
     }
+
+    .navbar {
+        background-color: transparent;
+    }
+
+    .roses {
+        background-image: url("/img/backgrounds/roses.jpg");
+        background-color: darkgreen;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .roses > .filter {
+        backdrop-filter: contrast(55%);
+    }
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    footer {
-        box-shadow: 0 50vh 0 50vh #d6d9e0;
-    }
-    .has-background-grey-lighter {
-    background-color: #d6d9e0 !important;
-}
+
   }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    footer {
-        box-shadow: 0 50vh 0 50vh #666970;
-    }
-    .has-background-grey-lighter {
-    background-color: #666970 !important;
-}
+
   }
 }
 

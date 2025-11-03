@@ -1,4 +1,6 @@
 +++
+[extra]
+wrapper_background_class = "roses"
 +++
 
 # Grounded support from someone who’s seen both sides of loss.

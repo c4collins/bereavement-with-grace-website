@@ -1,4 +1,6 @@
 +++
+[extra]
+wrapper_background_class = "roses"
 +++
 
 # Real support for real loss.

@@ -1,7 +1,10 @@
 +++
+[extra]
+wrapper_background_class = "roses"
 +++
 
-# Loss changes everything. Let’s not pretend it doesn’t.
+# Loss changes everything.
+## Let’s not pretend it doesn’t.
 
 Grief isn’t tidy, poetic, or linear. It’s messy. It’s quiet one minute and unbearable the next.
 
