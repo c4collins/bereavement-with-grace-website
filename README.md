@@ -1,5 +1,3 @@
-# Michelle Grace - Death Doula - Website
-
 ## Content Management
 
 Update markdown files in /content/
