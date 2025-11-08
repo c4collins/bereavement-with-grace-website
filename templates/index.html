@@ -2,8 +2,10 @@
 
 {% block content %}
 
-<div
-    class="background-wrapper {% if section.extra.wrapper_background_class %}{{ section.extra.wrapper_background_class }}{% endif %}">
+<div class="{%
+        if section.extra.section_type == 'image_background'
+        %}background-wrapper {{ section.extra.image_name }}{%
+        endif %}">
 
     <div class="filter section">
         <div class="container">
@@ -15,8 +17,12 @@
 
 
 {% for page in section.pages | sort(attribute='path') %}
-<div
-    class=" background-wrapper {% if page.extra.wrapper_background_class %}{{ page.extra.wrapper_background_class }}{% endif %}">
+<div class="{%
+if page.extra.section_type == 'image_background'
+    %}background-wrapper {{ page.extra.image_name }}{%
+elif page.extra.section_type == 'elegant'
+    %}elegant{%
+endif %}">
 
     <div class="filter section">
         <div class="container">

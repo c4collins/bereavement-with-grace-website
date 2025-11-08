@@ -1,7 +1,8 @@
 +++
 [extra]
-wrapper_background_class = "roses"
 extend_navbar = true
+section_type = "image_background"
+image_name = "roses"
 +++
 
 <div class="has-text-centered">

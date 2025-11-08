@@ -1,10 +1,16 @@
 +++
-path = "about"
+# path = "about"
 [extra]
-wrapper_background_class = "trees"
+section_type = "elegant"
 +++
 
+<div class="columns">
+<div class="column">
+
 # Grounded support from someone who’s seen both sides of loss.
+
+</div>
+<div class="column">
 
 I’ve worked within two funeral homes as a Funeral Director Assistant, supporting families through every stage of loss — from first contact to final arrangements.
 
@@ -16,3 +22,5 @@ This isn’t about sterile professionalism or scripted comfort. It’s about rea
 
 I bring a background in funeral service, emotional support work, and grounded presence to help people navigate both the planning and the aftermath of loss with honesty and calm.
 
+</div>
+</div>

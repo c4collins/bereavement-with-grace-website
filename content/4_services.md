@@ -1,7 +1,7 @@
 +++
-path = "services"
+# path = "services"
 [extra]
-wrapper_background_class = "trees"
+section_type = "elegant"
 +++
 
 # When you’re ready to talk, I’m here.
@@ -10,13 +10,15 @@ There’s no perfect time to reach out.
 
 If you’re navigating loss — or know you will be — we can start with a simple conversation.
 
+***
 
-
-# Services & Pricing
+## Services & Pricing
 
 Death and grief can be disorienting. I help handle what feels too heavy — both the emotional parts and the practical details — with calm, clarity, and respect.
 
-***
+<div class="columns">
+
+<div class="column">
 
 ## End-of-Life Support
 
@@ -36,7 +38,8 @@ Includes:
 - Bedside presence and support for both the dying and their loved ones
 - Follow-up resources and check-ins after each visit
 
-***
+</div>
+<div class="column">
 
 ## Bereavement Support
 
@@ -56,7 +59,8 @@ Includes:
 - Honest conversations about what’s changed and what comes next
 - Tools to help you rebuild at your own pace
 
-***
+</div>
+<div class="column">
 
 ## Legacy & Ritual Creation
 
@@ -73,3 +77,6 @@ May include:
 - Writing letters, recording memories, or creative storytelling
 - Designing personal rituals or simple memorials
 - Optional collaboration on memorial photography or keepsake pieces
+
+</div>
+</div>

@@ -1,8 +1,10 @@
 +++
-path = "what_is_it"
+# path = "what_is_it"
 [extra]
-wrapper_background_class = "flowers"
+section_type = "elegant"
 +++
+
+<div class="has-text-centered">
 
 # Grief isn’t something to fix. It’s something to face.
 
@@ -13,3 +15,5 @@ Ignore it.
 This work is about presence — sitting with the discomfort, naming what’s real, and finding small ways to stay connected to life when it feels like it’s slipping.
 
 It’s not about moving on. It’s about moving with.
+
+</div>
