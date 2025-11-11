@@ -6,7 +6,7 @@ section_type = "image_background"
 image_name = "flowers"
 +++
 
-# Real&nbsp;support for real&nbsp;loss.
+<!-- # Real&nbsp;support for real&nbsp;loss.
 
 No two experiences of death or grief look the same — so what I offer depends on what you&nbsp;need.
 
@@ -45,7 +45,7 @@ Either way, it’s honest, steady, and&nbsp;human.
 - Memorial photography, writing, or keepsake creation (optional add&#8209;ons)
 
 </div>
-</div>
+</div> -->
 
 <div class="columns">
 
