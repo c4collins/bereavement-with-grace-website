@@ -18,6 +18,8 @@ highlight_code = false
 [extra]
 default_language = "en"
 logo_path = "/img/logo/dove.webp"
+email = "michellegrace00@gmail.com"
+phone = "416&#8209;797&#8209;7947"
 
 [extra.navbar]
 links = ["offer", "services", "resources", "about", "connect"]

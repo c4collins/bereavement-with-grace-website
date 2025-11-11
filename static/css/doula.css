@@ -1,3 +1,12 @@
+/*
+Client Colour Scheme
+"Black": #5c523e
+"Dark": #8a7a5d
+"Neutral": #b8ac95
+"Light": #e1dcd2
+"White": #f5f4f1
+*/
+
 
 :root {
     body {
@@ -6,10 +15,10 @@
     }
 
     a {
-        color: lightgrey;
+        color: #e1dcd2;
     }
     a:hover {
-        color: grey;
+        color: #8a7a5d;
     }
     h1 {
         font-size: 4rem;
@@ -62,7 +71,7 @@
     }
 
     .background-wrapper > .filter {
-        color: white;
+        color: #f5f4f1;
         backdrop-filter: contrast(45%);
     }
     .roses {
@@ -79,18 +88,18 @@
     }
 
     .elegant {
-        background-color: #efefdf;
-        color: #2a2a2a;
+        background-color: #e1dcd2;
+        color: #5c523e;
     }
     .elegant a {
-        color: grey;
+        color: #8a7a5d;
     }
     .elegant footer {
-        box-shadow: 0 50vh 0 50vh #efefdf;
+        box-shadow: 0 50vh 0 50vh #e1dcd2;
     }
 
     #footer-container {
-        border-top: 1px white solid;
+        border-top: 1px #f5f4f1 solid;
     }
 }
 
