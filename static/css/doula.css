@@ -58,6 +58,7 @@
     .background-wrapper {
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: 75%;
     }
 
     .background-wrapper > .filter {
@@ -86,7 +87,10 @@
     }
     .elegant footer {
         box-shadow: 0 50vh 0 50vh #efefdf;
-        border-top: 1px lightgrey solid;
+    }
+
+    #footer-container {
+        border-top: 1px white solid;
     }
 }
 
