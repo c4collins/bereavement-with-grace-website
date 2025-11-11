@@ -16,7 +16,7 @@ image_name = "trees"
 
 </div>
 
-<div class="column">
+<div class="column is-two-thirds">
 
 #### How I help:
 
