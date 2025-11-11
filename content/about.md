@@ -10,7 +10,7 @@ image_name = ""
 <div class="columns">
 <div class="column">
 
-# Grounded support from someone who’s seen both sides of loss.
+# Grounded support from someone who’s seen both sides of&nbsp;loss.
 
 </div>
 </div>

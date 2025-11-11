@@ -23,7 +23,7 @@ image_name = "trees"
 - ###### End-of-life planning and grounded&nbsp;guidance
 - ###### Support for families and loved ones before and after&nbsp;loss
 - ###### Creating personal, meaningful rituals — no rules, no&nbsp;formality
-- ###### Grief support that’s direct, human, and&nbsp;judgment-free
+- ###### Grief support that’s direct, human, and judgment&#8209;free
 
 </div>
 </div>
