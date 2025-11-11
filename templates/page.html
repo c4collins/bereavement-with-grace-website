@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="{%
+if page.extra.section_type == 'image_background'
+    %}background-wrapper {{ page.extra.image_name }}{%
+elif page.extra.section_type == 'elegant'
+    %}elegant{%
+else
+    %}savage{%
+endif %}">
+    {% if page.extra.extend_navbar %}
+    <div class="section filter pb-4">
+        <div class="container">
+            {% include "components/navbar.html" %}
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="filter pt-4 pb-4">
+        <div class="container">
+            {% if page.content %}{{ page.content | safe }}{% endif %}
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

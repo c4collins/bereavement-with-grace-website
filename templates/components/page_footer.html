@@ -1,10 +1,10 @@
 <footer class="container columns">
-    {% if config.extra.footer.links.length %}
+    {% if config.extra.footer.links | length %}
     <div class="column is-three-quarters has-text-left">
         {% for link in config.extra.footer.links %}
         {% for translation in config.extra.links.translations %}
         {% if translation.name == link %}
-        <a class="display-block mr-6" href="{{ config.base_url }}{{translation.url}}"><strong>{{translation[lang]
+        <a class="display-block mr-4" href="{{ config.base_url }}{{translation.url}}"><strong>{{translation[lang]
                 | safe}}</strong></a>
         {% endif %}
         {% endfor %}

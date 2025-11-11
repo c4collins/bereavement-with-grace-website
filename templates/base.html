@@ -32,16 +32,10 @@
 </head>
 
 <body>
-
-    {% if not section.extra.extend_navbar %}
-    <div class="{% if section.extra.section_type
-        and section.extra.section_type == 'image_background'
-            %}background-wrapper {{ section.extra.image_name }}{%
-    endif %}">
-        <div class="filter section">
-            <div class="container">
-                {% include "components/navbar.html" %}
-            </div>
+    {% if not section.extra.extend_navbar and not page.extra.extend_navbar %}
+    <div class="section elegant pb-4">
+        <div class="container">
+            {% include "components/navbar.html" %}
         </div>
     </div>
     {% endif %}
@@ -50,7 +44,7 @@
     {% endblock content %}
 
 
-    <div class="filter section elegant">
+    <div class="section elegant pt-4 mt-0">
         <div class="container">
             {% include "components/page_footer.html" %}
         </div>

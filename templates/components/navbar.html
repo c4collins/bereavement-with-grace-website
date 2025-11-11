@@ -5,7 +5,7 @@
                 <img src="{{ config.base_url }}{{ config.extra.logo_path }}" alt="{{ config.title }}" />
             </a>
 
-            {% if config.extra.navbar.links.length %}
+            {% if config.extra.navbar.links | length %}
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-top">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -14,8 +14,7 @@
             </a>
             {% endif %}
         </div>
-
-        {% if config.extra.navbar.links.length %}
+        {% if config.extra.navbar.links | length %}
         <div id="navbar-top" class="navbar-menu">
             <div class="navbar-end">
                 {% for link in config.extra.navbar.links %}

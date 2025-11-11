@@ -4,8 +4,12 @@
         min-height: 100vh;
         font-family: Cormorant, "Brush Script MT", "Brush Script Std", "Lucida Calligraphy", "Lucida Handwriting", "Apple Chancery", cursive;
     }
+
     a {
         color: lightgrey;
+    }
+    a:hover {
+        color: grey;
     }
     h1 {
         font-size: 4rem;
@@ -19,15 +23,19 @@
     }
     h3 {
         font-size: 3rem;
+        padding-bottom: 1rem;
     }
     h4 {
         font-size: 2.5rem;
+        padding-bottom: 1rem;
     }
     h5 {
         font-size: 2rem;
+        padding-bottom: 1rem;
     }
     h6 {
         font-size: 1.5rem;
+        padding-bottom: 1rem;
     }
     p {
         margin-top: 1rem;
@@ -42,8 +50,9 @@
         font-size: 1.2rem;
     }
 
-    .navbar {
+    .navbar, .navbar-menu {
         background-color: transparent;
+        box-shadow: none;
     }
 
     .background-wrapper {
@@ -71,6 +80,13 @@
     .elegant {
         background-color: #efefdf;
         color: #2a2a2a;
+    }
+    .elegant a {
+        color: grey;
+    }
+    .elegant footer {
+        box-shadow: 0 50vh 0 50vh #efefdf;
+        border-top: 1px lightgrey solid;
     }
 }
 

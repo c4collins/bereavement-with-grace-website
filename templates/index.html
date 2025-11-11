@@ -7,28 +7,19 @@
         %}background-wrapper {{ section.extra.image_name }}{%
         endif %}">
 
-    <div class="filter section">
+    {% if section.extra.extend_navbar %}
+    <div class="section filter pb-4">
         <div class="container">
             {% include "components/navbar.html" %}
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="section filter">
+        <div class="container">
             {% if section.content %}{{ section.content | safe }}{% endif %}
         </div>
     </div>
 </div>
 
-
-{% for page in section.pages | sort(attribute='path') %}
-<div class="{%
-if page.extra.section_type == 'image_background'
-    %}background-wrapper {{ page.extra.image_name }}{%
-elif page.extra.section_type == 'elegant'
-    %}elegant{%
-endif %}">
-
-    <div class="filter section">
-        <div class="container">
-            {% if page.content %}{{ page.content | safe }}{% endif %}
-        </div>
-    </div>
-</div>
-{% endfor %}
 {% endblock content %}
