@@ -73,6 +73,7 @@ Client Colour Scheme
     .background-wrapper > .filter {
         color: #f5f4f1;
         backdrop-filter: contrast(45%);
+        margin-bottom: -1px;
     }
     .roses {
         background-image: url("/img/backgrounds/roses.jpg");
