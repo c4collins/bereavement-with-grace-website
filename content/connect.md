@@ -4,6 +4,8 @@
 extend_navbar = true
 section_type = "image_background"
 image_name = "flowers"
+title = "Connect"
+description = "Located in Toronto, available to meet virtually or by phone"
 +++
 
 <div class="columns">

@@ -4,6 +4,8 @@
 extend_navbar = false
 section_type = "elegant"
 image_name = ""
+title = "About"
+description = "Grounded support from someone who’s seen both sides of loss."
 +++
 
 

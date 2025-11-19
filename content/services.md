@@ -4,6 +4,8 @@
 extend_navbar = false
 section_type = "elegant"
 image_name = ""
+title = "Services"
+description = "When you’re ready to talk, I’m here"
 +++
 
 # When you’re ready to talk, I’m&nbsp;here.

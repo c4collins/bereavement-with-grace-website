@@ -3,6 +3,8 @@
 extend_navbar = false
 section_type = "elegant"
 image_name = ""
+title = "Free Resources"
+description = "Grounded support from someone who’s seen both sides of loss."
 +++
 
 # Grief Resources

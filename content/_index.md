@@ -3,6 +3,8 @@
 extend_navbar = true
 section_type = "image_background"
 image_name = "roses"
+title = "Home"
+description = "Loss changes everything. Let’s not pretend it doesn’t."
 +++
 
 <div class="has-text-centered">

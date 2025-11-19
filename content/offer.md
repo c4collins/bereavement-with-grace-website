@@ -4,6 +4,8 @@
 extend_navbar = true
 section_type = "image_background"
 image_name = "trees"
+title = "Offers"
+description = "Straightforward support for the hardest chapters."
 +++
 
 # Straightforward support for the hardest&nbsp;chapters.
