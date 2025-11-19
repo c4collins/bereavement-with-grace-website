@@ -16,9 +16,9 @@ description = "Located in Toronto, available to meet virtually or by phone"
 
 ###### I look forward to&nbsp;meeting&nbsp;you!
 
-##### <a href="mailto:{{ email() }}" target="_blank"><i data-lucide="mail"></i>&nbsp;{{ email() }}</a>
+##### {{ cta(name="email-me")}} <a href="mailto:{{ email() }}" target="_blank">{{ email() }}</a>
 
-###### <a href="tel:{{ phone() }}" target="_blank"><i data-lucide="phone"></i>&nbsp;{{ phone() }}</a>
+###### {{ cta(name="call-now")}} <a href="tel:{{ phone() }}" target="_blank">{{ phone() }}</a>
 
 </div>
 

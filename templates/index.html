@@ -20,6 +20,16 @@
             {% if section.content %}{{ section.content | safe }}{% endif %}
         </div>
     </div>
+
+
+    {% if section.extra.extend_footer %}
+    <div id="footer-container" class="section filter pt-4 mt-0">
+        <div class="container">
+            {% include "components/page_footer.html" %}
+        </div>
+    </div>
+    {% endif %}
+
 </div>
 
 {% endblock content %}

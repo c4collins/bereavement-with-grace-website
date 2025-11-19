@@ -1,8 +1,9 @@
 +++
 [extra]
-extend_navbar = false
-section_type = "elegant"
-image_name = ""
+extend_navbar = true
+extend_footer = true
+section_type = "image_background"
+image_name = "roses"
 title = "Free Resources"
 description = "Grounded support from someone who’s seen both sides of loss."
 +++

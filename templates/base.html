@@ -3,10 +3,14 @@
 <html class="theme-light">
 
 <head>
+    {# Basics #}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {# Content #}
     <meta name="description" content="{% if page.extra.description %}{{ page.extra.description }}{% else %}{{ config.description }}{% endif %}" />
 
+    {# Open Graph #}
     <meta property="og:title" content="{{ config.title }}{% if page.extra.title %} - {{ page.extra.title }}{% endif %}" />
     <meta property="og:url" content="{{ config.base_url }}{% if page.path %}{{ page.path }}{% endif %}" />
     <meta property="og:description" content="{% if page.extra.description %}{{ page.extra.description }}{% else %}{{ config.description }}{% endif %}" />
@@ -15,6 +19,7 @@
     <meta property="og:image:height" content="630" />
     <meta property="og:type" content="website" />
 
+    {# Twitter #}
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{{ config.title }}{% if page.extra.title %} - {{ page.extra.title }}{% endif %}" />
     <meta name="twitter:description" content="{% if page.extra.description %}{{ page.extra.description }}{% else %}{{ config.description }}{% endif %}" />
@@ -22,6 +27,7 @@
 
     <title>{{ config.title }}{% if page.extra.title %} - {{ page.extra.title }}{% endif %}</title>
 
+    {# Canonical #}
     <link rel="canonical" href="{{ config.base_url }}{% if page.path %}{{ page.path }}{% endif %}" />
 
     {# Fonts #}
@@ -36,7 +42,8 @@
     {# Local CSS #}
     <link rel="stylesheet" href="{{ config.base_url }}/css/doula.css" />
 
-
+    {# Lucide Icons #}
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 
 </head>
 
@@ -53,14 +60,15 @@
     {% endblock content %}
 
 
+    {% if not section.extra.extend_footer and not page.extra.extend_footer %}
     <div id="footer-container" class="section elegant pt-4 mt-0">
         <div class="container">
             {% include "components/page_footer.html" %}
         </div>
     </div>
+    {% endif %}
 
     {# Lucide Icons #}
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     <script>
         lucide.createIcons();
     </script>

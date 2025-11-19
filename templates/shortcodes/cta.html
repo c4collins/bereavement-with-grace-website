@@ -32,12 +32,12 @@
 
 {% elif name == "call-now" %}
 <a href="tel:{{ config.extra.phone | safe }}" class="button is-danger is-medium">
-    Call Now: {{ config.extra.phone | safe }}
+    <i data-lucide="phone"></i>&nbsp;Call Now
 </a>
 
 {% elif name == "email-me" %}
 <a href="mailto:{{ config.extra.email |safe }}" class="button is-link is-medium">
-    Send Me an Email
+    <i data-lucide="mail"></i>&nbsp;Send Me an Email
 </a>
 
 {% elif name == "start-here" %}

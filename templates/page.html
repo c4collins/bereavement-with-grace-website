@@ -23,6 +23,14 @@ endif %}">
             {% if page.content %}{{ page.content | safe }}{% endif %}
         </div>
     </div>
+
+    {% if page.extra.extend_footer %}
+    <div id="footer-container" class="section filter pt-4 mt-0">
+        <div class="container">
+            {% include "components/page_footer.html" %}
+        </div>
+    </div>
+    {% endif %}
 </div>
 
 {% endblock content %}

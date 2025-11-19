@@ -1,6 +1,7 @@
 +++
 [extra]
 extend_navbar = true
+extend_footer = true
 section_type = "image_background"
 image_name = "roses"
 title = "Home"
