@@ -1,3 +1,5 @@
 _OLD/
 public/
 .gitlab-ci.yml
+Thumbs.db
+static/img/sources
