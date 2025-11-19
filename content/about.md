@@ -31,6 +31,8 @@ description = "Grounded support from someone who’s seen both sides of loss."
 
 ###### I bring a background in funeral service, emotional support work, and grounded presence to help people navigate both the planning and the aftermath of loss with honesty and&nbsp;calm.
 
+{{ cta(name="contact") }}
+
 </div>
 <div class="column">
 <img src="/img/michelle/sitting.png" alt="Michelle Grace" class="container" />

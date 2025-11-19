@@ -1,0 +1,58 @@
+{% set name = name | default(value="default") %}
+
+{% if name == "schedule" %}
+<a href="/connect" class="button is-primary is-medium">
+    Schedule a Free Consultation
+</a>
+
+{% elif name == "contact" %}
+<a href="/connect" class="button is-link is-medium">
+    Get in Touch
+</a>
+
+{% elif name == "services" %}
+<a href="/services" class="button is-primary is-medium">
+    Explore My Services
+</a>
+
+{% elif name == "resources" %}
+<a href="/free-resources" class="button is-info is-medium">
+    Access Free Resources
+</a>
+
+{% elif name == "learn-more" %}
+<a href="/about" class="button is-link is-light is-medium">
+    Learn More About Me
+</a>
+
+{% elif name == "what-i-offer" %}
+<a href="/offer" class="button is-primary is-medium">
+    What I Offer
+</a>
+
+{% elif name == "call-now" %}
+<a href="tel:{{ config.extra.phone | safe }}" class="button is-danger is-medium">
+    Call Now: {{ config.extra.phone | safe }}
+</a>
+
+{% elif name == "email-me" %}
+<a href="mailto:{{ config.extra.email |safe }}" class="button is-link is-medium">
+    Send Me an Email
+</a>
+
+{% elif name == "start-here" %}
+<a href="/offer" class="button is-primary is-large">
+    Start Here
+</a>
+
+{% elif name == "support" %}
+<a href="/connect" class="button is-primary is-medium">
+    I'm Here to Support You
+</a>
+
+{% else %}
+<a href="/connect" class="button is-primary is-medium">
+    Connect With Me
+</a>
+
+{% endif %}

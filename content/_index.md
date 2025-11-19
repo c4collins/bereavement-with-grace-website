@@ -42,4 +42,6 @@ description = "Loss changes everything. Let’s not pretend it doesn’t."
 
 ##### It’s&nbsp;not&nbsp;about&nbsp;moving&nbsp;on. It’s&nbsp;about&nbsp;moving&nbsp;with.
 
+{{ cta() }}
+
 </div>

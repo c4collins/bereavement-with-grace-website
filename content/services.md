@@ -14,6 +14,8 @@ There’s no perfect time to reach&nbsp;out.
 
 If you’re navigating loss — or know you will be — we can start with a simple&nbsp;conversation.
 
+{{ cta(name="resources") }}
+
 ## Services Offered
 
 Death and grief can be disorienting. I help handle what feels too heavy — both the emotional parts and the practical details — with calm, clarity, and&nbsp;respect.

@@ -6,6 +6,43 @@
     --color-light: #e1dcd2;
     --color-white: #f5f4f1;
 
+    /* Bulma Color Overrides */
+    /* Primary color - using the dark earthy tone */
+    --bulma-primary-h: 40;
+    --bulma-primary-s: 20%;
+    --bulma-primary-l: 40%;
+    --bulma-primary: hsl(40, 20%, 40%);
+    --bulma-primary-invert: var(--color-white);
+
+    /* Link color - using the neutral tone */
+    --bulma-link-h: 40;
+    --bulma-link-s: 18%;
+    --bulma-link-l: 52%;
+    --bulma-link: hsl(40, 18%, 52%);
+    --bulma-link-invert: var(--color-white);
+
+    /* Info color - using a slightly lighter variant */
+    --bulma-info-h: 40;
+    --bulma-info-s: 25%;
+    --bulma-info-l: 65%;
+    --bulma-info: hsl(40, 25%, 65%);
+    --bulma-info-invert: var(--color-black);
+
+    /* Danger color - using a warmer reddish-brown */
+    --bulma-danger-h: 15;
+    --bulma-danger-s: 35%;
+    --bulma-danger-l: 45%;
+    --bulma-danger: hsl(15, 35%, 45%);
+    --bulma-danger-invert: var(--color-white);
+
+    /* Background and text colors */
+    --bulma-scheme-main: var(--color-white);
+    --bulma-background: var(--color-light);
+    --bulma-text: var(--color-black);
+    --bulma-text-strong: var(--color-black);
+    --bulma-border: var(--color-neutral);
+    --bulma-border-hover: var(--color-dark);
+
     body {
         min-height: 100vh;
         font-family: Cormorant, "Brush Script MT", "Brush Script Std", "Lucida Calligraphy", "Lucida Handwriting", "Apple Chancery", cursive;
@@ -107,8 +144,11 @@
         background-color: var(--color-light);
         color: var(--color-black);
 
-        a {
-            color: var(--color-dark);
+        .navbar,
+        footer {
+            a {
+                color: var(--color-dark);
+            }
         }
 
         footer {

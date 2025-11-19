@@ -27,4 +27,3 @@ description = "Located in Toronto, available to meet virtually or by phone"
 </div>
 
 </div>
-

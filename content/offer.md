@@ -16,6 +16,8 @@ description = "Straightforward support for the hardest chapters."
 
 ## Every loss is different, but the need for honesty is the&nbsp;same.
 
+{{ cta(name="call-now") }}
+
 </div>
 
 <div class="column is-two-thirds">
